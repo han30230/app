@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>마우스 버튼 반복 예제</title>
+    <style>
+        button {
+            color: rgb(72, 0, 255);
+            width: 100px;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button id="startButton">반복 시작</button>
+    <button id="stopButton">반복 중지</button>
+    <p id="output">여기에 클릭 메시지가 표시됩니다.</p>
+</body>
+</html>
